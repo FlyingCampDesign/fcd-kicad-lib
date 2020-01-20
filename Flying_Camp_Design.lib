@@ -9,6 +9,7 @@ F1 "S2B-PH-SM4-TB(LF)(SN)" -200 -371 50 H V L BNN
 F2 "Flying_Camp_Design:JST_S2B-PH-SM4-TB(LF)(SN)" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "JST" 0 0 50 H I L BNN "Manufacturer"
+F5 "S2B-PH-SM4-TB(LF)(SN)" 0 0 50 H I L BNN "Manufacturer Part Number"
 DRAW
 P 2 0 0 6 -200 -300 -200 200 N
 P 2 0 0 6 -200 200 200 200 N
