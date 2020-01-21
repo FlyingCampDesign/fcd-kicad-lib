@@ -1,15 +1,370 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1-1825027-1
+#
+DEF 1-1825027-1 SW 0 40 Y N 1 F N
+F0 "SW" -200 225 50 H V L BNN
+F1 "1-1825027-1" -200 -375 50 H V L BNN
+F2 "Flying_Camp_Design:1-1825027-1" 0 0 50 H I L BNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" 0 0 50 H I L BNN
+F4 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
+F5 "1-1825027-1" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "450-1658-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztmc92" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+C -100 100 10 0 0 20 N
+C 100 100 10 0 0 20 N
+P 2 0 0 10 -200 -300 200 -300 N
+P 2 0 0 10 -200 100 -100 100 N
+P 2 0 0 10 -200 200 -200 -300 N
+P 2 0 0 10 -100 100 100 160 N
+P 2 0 0 10 100 100 200 100 N
+P 2 0 0 10 200 -300 200 200 N
+P 2 0 0 10 200 200 -200 200 N
+X 1 1 -300 100 100 R 40 40 0 0 P
+X 2 2 300 100 100 L 40 40 0 0 P
+X SHIELD S1 300 -100 100 L 40 40 0 0 W
+X SHIELD__1 S2 300 -200 100 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# 1734328-2
+#
+DEF 1734328-2 J 0 40 Y Y 1 F N
+F0 "J" -200 425 50 H V L BNN
+F1 "1734328-2" -200 -775 50 H V L BNN
+F2 "Flying_Camp_Design:1734328-2" 0 0 50 H I L BNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734328&DocType=Customer+Drawing&DocLang=English" 0 0 50 H I L BNN
+F4 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
+F5 "1734328-2" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "A111052CT-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/zt8z79" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -200 400 200 -700 0 1 10 N
+X 1 1 400 300 200 L 40 40 0 0 P
+X 2 2 400 200 200 L 40 40 0 0 P
+X 3 3 400 100 200 L 40 40 0 0 P
+X 4 4 400 0 200 L 40 40 0 0 P
+X 5 5 400 -100 200 L 40 40 0 0 P
+X SHIELD S1 400 -300 200 L 40 40 0 0 P
+X SHIELD__1 S2 400 -400 200 L 40 40 0 0 P
+X SHIELD__2 S3 400 -500 200 L 40 40 0 0 P
+X SHIELD__3 S4 400 -600 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 2-1437565-7
+#
+DEF 2-1437565-7 SW 0 40 Y N 1 F N
+F0 "SW" -200 225 50 H V L BNN
+F1 "2-1437565-7" -200 -275 50 H V L BNN
+F2 "Flying_Camp_Design:2-1437565-7" 0 0 50 H I L BNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" 0 0 50 H I L BNN
+F4 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
+F5 "2-1437565-7" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "450-1130-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/zt8c4h" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+C -60 0 10 0 0 6 N
+C 60 0 10 0 0 6 N
+P 2 0 0 10 -200 -200 -200 -100 N
+P 2 0 0 10 -200 -100 -200 100 N
+P 2 0 0 10 -200 100 -200 200 N
+P 2 0 0 6 -200 100 -100 100 N
+P 2 0 0 10 -200 200 200 200 N
+P 2 0 0 6 -100 -100 -200 -100 N
+P 2 0 0 6 -100 0 -100 -100 N
+P 2 0 0 6 -100 0 -70 0 N
+P 2 0 0 6 -100 100 -100 0 N
+P 2 0 0 6 -50 0 40 40 N
+P 2 0 0 6 100 -100 200 -100 N
+P 2 0 0 6 100 0 70 0 N
+P 2 0 0 6 100 0 100 -100 N
+P 2 0 0 6 100 100 100 0 N
+P 2 0 0 10 200 -200 -200 -200 N
+P 2 0 0 10 200 -100 200 -200 N
+P 2 0 0 6 200 100 100 100 N
+P 2 0 0 10 200 100 200 -100 N
+P 2 0 0 10 200 200 200 100 N
+X 1 1 -400 100 200 R 40 40 0 0 P
+X 2 2 -400 -100 200 R 40 40 0 0 P
+X 3 3 400 100 200 L 40 40 0 0 P
+X 4 4 400 -100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 2129691-1
+#
+DEF 2129691-1 J 0 40 Y Y 1 F N
+F0 "J" -300 825 50 H V L BNN
+F1 "2129691-1" -300 -1275 50 H V L BNN
+F2 "Flying_Camp_Design:2129691-1" 0 0 50 H I L BNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2129691_Dwg.pdf" 0 0 50 H I L BNN
+F4 "TE Connectivity" 0 0 50 H I L BNN "Manufacturer"
+F5 "2129691-1" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "A122008CT-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/zt84pm" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -300 800 300 -1200 0 1 10 N
+X A1 A1 -500 700 200 R 40 40 0 0 P
+X A10 A10 -500 -200 200 R 40 40 0 0 P
+X A11 A11 -500 -300 200 R 40 40 0 0 P
+X A12 A12 -500 -400 200 R 40 40 0 0 P
+X A2 A2 -500 600 200 R 40 40 0 0 P
+X A3 A3 -500 500 200 R 40 40 0 0 P
+X A4 A4 -500 400 200 R 40 40 0 0 P
+X A5 A5 -500 300 200 R 40 40 0 0 P
+X A6 A6 -500 200 200 R 40 40 0 0 P
+X A7 A7 -500 100 200 R 40 40 0 0 P
+X A8 A8 -500 0 200 R 40 40 0 0 P
+X A9 A9 -500 -100 200 R 40 40 0 0 P
+X B1 B1 500 700 200 L 40 40 0 0 P
+X B10 B10 500 -200 200 L 40 40 0 0 P
+X B11 B11 500 -300 200 L 40 40 0 0 P
+X B12 B12 500 -400 200 L 40 40 0 0 P
+X B2 B2 500 600 200 L 40 40 0 0 P
+X B3 B3 500 500 200 L 40 40 0 0 P
+X B4 B4 500 400 200 L 40 40 0 0 P
+X B5 B5 500 300 200 L 40 40 0 0 P
+X B6 B6 500 200 200 L 40 40 0 0 P
+X B7 B7 500 100 200 L 40 40 0 0 P
+X B8 B8 500 0 200 L 40 40 0 0 P
+X B9 B9 500 -100 200 L 40 40 0 0 P
+X SHIELD S1 500 -600 200 L 40 40 0 0 P
+X SHIELD__1 S2 500 -700 200 L 40 40 0 0 P
+X SHIELD__2 S3 500 -800 200 L 40 40 0 0 P
+X SHIELD__3 S4 500 -900 200 L 40 40 0 0 P
+X SHIELD__4 S5 500 -1000 200 L 40 40 0 0 P
+X SHIELD__5 S6 500 -1100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ARM-CORTEX-M-DEBUG-10POS-KEY
+#
+DEF ARM-CORTEX-M-DEBUG-10POS-KEY J 0 40 Y Y 1 F N
+F0 "J" -400 425 50 H V L BNN
+F1 "ARM-CORTEX-M-DEBUG-10POS-KEY" -400 -475 50 H V L BNN
+F2 "Flying_Camp_Design:FTSH-105-01-F-DV-K-P-TR" -400 200 50 H I L BNN
+F3 "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf" -400 200 50 H I L BNN
+F4 "Samtec Inc." -400 200 50 H I L BNN "Manufacturer"
+F5 "FTSH-105-01-F-DV-K-P-TR" -400 200 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" -400 200 50 H I L BNN "Vendor"
+F7 "SAM13159CT-ND" -400 200 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztbncr" -400 200 50 H I L BNN "Vendor URL"
+DRAW
+T 0 -400 -650 50 0 0 0 "(NR1) on Segger" Normal 0 L B
+T 0 -400 -725 50 0 0 0 "adapter allows TRST to" Normal 0 L B
+T 0 -400 -800 50 0 0 0 "be connected to pin 9" Normal 0 L B
+T 0 -400 -575 50 0 0 0 "Optional solder bridge" Normal 0 L B
+S -400 400 400 -400 0 1 10 N
+X VTref 1 -600 200 200 R 40 40 0 0 P
+X nRESET 10 600 -200 200 L 40 40 0 0 P
+X SWDIO/TMS 2 600 200 200 L 40 40 0 0 P
+X GND 3 -600 100 200 R 40 40 0 0 P
+X SWCLK/TCK 4 600 100 200 L 40 40 0 0 P
+X GND 5 -600 0 200 R 40 40 0 0 P
+X SWO/TDO 6 600 0 200 L 40 40 0 0 P
+X KEY 7 -600 -100 200 R 40 40 0 0 P
+X TDI 8 600 -100 200 L 40 40 0 0 P
+X NC/TRST 9 -600 -200 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# DM3AT-SF-PEJM5
+#
+DEF DM3AT-SF-PEJM5 J 0 40 Y Y 1 F N
+F0 "J" -300 725 50 H V L BNN
+F1 "DM3AT-SF-PEJM5" -300 -1075 50 H V L BNN
+F2 "Flying_Camp_Design:DM3AT-SF-PEJM5" 0 0 50 H I L BNN
+F3 "https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en" 0 0 50 H I L BNN
+F4 "Hirose Connector" 0 0 50 H I L BNN "Manufacturer"
+F5 "DM3AT-SF-PEJM5" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I L BNN "Vendor"
+F7 "798-DM3AT-SF-PEJM5" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.mouser.com/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=sGAEpiMZZMuJakaoiLiBpvjg2IzEXJkOoUNaxaL8lrc%3D" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -300 700 300 -1000 0 1 10 N
+P 2 0 0 10 -300 -900 -300 -1000 N
+P 2 0 0 10 -300 -800 -300 -900 N
+X DAT2 1 -500 300 200 R 40 40 0 0 B
+X CD/DAT3 2 -500 200 200 R 40 40 0 0 B
+X CMD 3 -500 100 200 R 40 40 0 0 B
+X VDD 4 -500 600 200 R 40 40 0 0 W
+X CLK 5 -500 0 200 R 40 40 0 0 B C
+X VSS 6 -500 -100 200 R 40 40 0 0 W
+X DAT0 7 -500 500 200 R 40 40 0 0 B
+X DAT1 8 -500 400 200 R 40 40 0 0 B
+X SHIELD P1 -500 -300 200 R 40 40 0 0 P
+X SHIELD__1 P2 -500 -400 200 R 40 40 0 0 P
+X SHIELD__2 P3 -500 -500 200 R 40 40 0 0 P
+X SHIELD__3 P4 -500 -600 200 R 40 40 0 0 P
+X A SWA -500 -800 200 R 40 40 0 0 B
+X B SWB -500 -900 200 R 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# DM3BT-DSF-PEJS
+#
+DEF DM3BT-DSF-PEJS J 0 40 Y Y 1 F N
+F0 "J" -500 525 50 H V L BNN
+F1 "DM3BT-DSF-PEJS" -500 -875 50 H V L BNN
+F2 "Flying_Camp_Design:DM3BT-DSF-PEJS" 0 0 50 H I L BNN
+F3 "https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=DM3BT-DSF-PEJS" 0 0 50 H I L BNN
+F4 "Hirose Connector" 0 0 50 H I L BNN "Manufacturer"
+F5 "DM3BT-DSF-PEJS" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I L BNN "Vendor"
+F7 "798-DM3BT-DSF-PEJS" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.mouser.com/ProductDetail/Hirose-Connector/DM3BT-DSF-PEJS?qs=%2Fha2pyFadujEJZWXWwSnCbHmJX%252BowQ%252B0yOSDNoGyryX9dXM64RPGrA%3D%3D" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -500 500 500 -800 0 1 10 N
+X DAT2 1 -600 0 100 R 40 40 0 0 B
+X DAT3/CD 2 -600 -100 100 R 40 40 0 0 B
+X CMD 3 -600 -200 100 R 40 40 0 0 B
+X VDD 4 600 400 100 L 40 40 0 0 W
+X CLK 5 -600 300 100 R 40 40 0 0 I C
+X VSS 6 600 -700 100 L 40 40 0 0 W
+X DAT0 7 -600 200 100 R 40 40 0 0 B
+X DAT1 8 -600 100 100 R 40 40 0 0 B
+X SHIELD S1 600 -300 100 L 40 40 0 0 P
+X SHIELD__1 S2 600 -400 100 L 40 40 0 0 P
+X SHIELD__2 S3 600 -500 100 L 40 40 0 0 P
+X SHIELD__3 S4 600 -600 100 L 40 40 0 0 P
+X SW-A SWA 600 100 100 L 40 40 0 0 B
+X SW-B SWB 600 0 100 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# GCM155R71C104KA55D
+#
+DEF GCM155R71C104KA55D C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "GCM155R71C104KA55D" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 38 -150 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" 0 0 50 H I L CNN
+F4 "Murata Electronics" 0 0 50 H I L CNN "Manufacturer"
+F5 "GCM155R71C104KA55D" 0 0 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L CNN "Vendor"
+F7 "490-4759-1-ND" 0 0 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztm8dd" 0 0 50 H I L CNN "Vendor URL"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# KMR421GULCLFS
+#
+DEF KMR421GULCLFS SW 0 40 Y N 1 F N
+F0 "SW" -200 200 50 H V L BNN
+F1 "KMR421GULCLFS" -200 -250 50 H V L BNN
+F2 "Flying_Camp_Design:KMR421GULCLFS" 0 0 50 H I L BNN
+F3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/KMR4/documents/datasheet.pdf" 0 0 50 H I L BNN
+F4 "C&K" 0 0 50 H I L BNN "Manufacturer"
+F5 "KMR421GULCLFS" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "CKN12152CT-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztqvzm" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+C 0 -60 7 0 0 10 N
+C 0 60 7 0 0 10 N
+P 2 0 0 6 -300 100 0 100 N
+P 2 0 0 10 -200 -175 -200 175 N
+P 2 0 0 6 -200 -100 0 -100 N
+P 2 0 0 10 -200 175 200 175 N
+P 2 0 0 6 0 -100 200 -100 N
+P 2 0 0 6 0 -60 0 -100 N
+P 2 0 0 6 0 60 0 100 N
+P 2 0 0 6 0 60 50 -50 N
+P 2 0 0 6 0 100 200 100 N
+P 2 0 0 6 90 -20 120 -20 N
+P 2 0 0 6 100 -40 140 -40 N
+P 2 0 0 6 120 -20 150 -20 N
+P 2 0 0 6 120 0 120 -20 N
+P 2 0 0 6 130 -60 110 -60 N
+P 2 0 0 10 200 -175 -200 -175 N
+P 2 0 0 6 200 0 120 0 N
+P 2 0 0 10 200 175 200 -175 N
+X 1 1 -300 100 100 R 40 40 0 0 P
+X 2 2 -300 -100 100 R 40 40 0 0 P
+X 3 3 300 -100 100 L 40 40 0 0 P
+X 4 4 300 100 100 L 40 40 0 0 P
+X G 5 300 0 100 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# MCU_VBAT
+#
+DEF MCU_VBAT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MCU_VBAT" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X MCU_VBAT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MCU_VDDA
+#
+DEF MCU_VDDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MCU_VDDA" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X MCU_VDDA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# NEOPIXEL-MINI
+#
+DEF NEOPIXEL-MINI D 0 40 Y Y 1 F N
+F0 "D" -400 325 50 H V L BNN
+F1 "NEOPIXEL-MINI" -400 -375 50 H V L BNN
+F2 "Flying_Camp_Design:NEOPIXEL-MINI" 0 0 50 H I L BNN
+F3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" 0 0 50 H I L BNN
+F4 "Adafruit Industries LLC" 0 0 50 H I L BNN "Manufacturer"
+F5 "2659" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "1528-1542-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/zt5702" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -400 300 400 -300 1 1 10 f
+X DOUT 1 600 0 200 L 40 40 0 0 O
+X VSS 2 600 -200 200 L 40 40 0 0 W
+X DIN 3 -600 0 200 R 40 40 0 0 I
+X VDD 4 600 200 200 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
 # S2B-PH-SM4-TB(LF)(SN)
 #
 DEF S2B-PH-SM4-TB(LF)(SN) J 0 40 Y Y 1 F N
-F0 "J" -200 220 50 H V L BNN
-F1 "S2B-PH-SM4-TB(LF)(SN)" -200 -371 50 H V L BNN
-F2 "Flying_Camp_Design:JST_S2B-PH-SM4-TB(LF)(SN)" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "JST" 0 0 50 H I L BNN "Manufacturer"
+F0 "J" -200 225 50 H V L BNN
+F1 "S2B-PH-SM4-TB(LF)(SN)" -200 -375 50 H V L BNN
+F2 "Flying_Camp_Design:S2B-PH-SM4-TB(LF)(SN)" 0 0 50 H I L BNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 0 0 50 H I L BNN
+F4 "JST Sales America Inc." 0 0 50 H I L BNN "Manufacturer"
 F5 "S2B-PH-SM4-TB(LF)(SN)" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "455-1749-1-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztqdqj" 0 0 50 H I L BNN "Vendor URL"
 DRAW
 P 2 0 0 6 -200 -300 -200 200 N
 P 2 0 0 6 -200 200 200 200 N
@@ -19,6 +374,94 @@ X 1 1 -300 100 100 R 40 40 0 0 P
 X 2 2 -300 0 100 R 40 40 0 0 P
 X SHIELD S1 -300 -100 100 R 40 40 0 0 P
 X SHIELD S2 -300 -200 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# USB4085-GF-A
+#
+DEF USB4085-GF-A J 0 40 N Y 1 F N
+F0 "J" -200 725 50 H V L BNN
+F1 "USB4085-GF-A" -200 -775 50 H V L BNN
+F2 "Flying_Camp_Design:USB4085-GF-A" 0 0 50 H I L BNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf" 0 0 50 H I L BNN
+F4 "Global Connector Technology" 0 0 50 H I L BNN "Manufacturer"
+F5 "USB4085-GF-A" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "2073-USB4085-GF-ACT-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/zt8zr7" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -200 700 200 -700 0 1 10 N
+X GND A1 -300 -600 100 R 40 40 0 0 P
+X GND A12 -300 -600 100 R 40 40 0 0 P
+X VBUS A4 -300 600 100 R 40 40 0 0 W
+X CC1 A5 -300 400 100 R 40 40 0 0 B
+X DP1 A6 -300 200 100 R 40 40 0 0 B
+X DN1 A7 -300 0 100 R 40 40 0 0 B
+X SBU1 A8 -300 -200 100 R 40 40 0 0 B
+X VBUS A9 -300 600 100 R 40 40 0 0 W
+X GND B1 -300 -600 100 R 40 40 0 0 P
+X GND B12 -300 -600 100 R 40 40 0 0 P
+X VBUS B4 -300 600 100 R 40 40 0 0 W
+X CC2 B5 -300 300 100 R 40 40 0 0 B C
+X DP2 B6 -300 100 100 R 40 40 0 0 B
+X DN2 B7 -300 -100 100 R 40 40 0 0 B
+X SBU2 B8 -300 -300 100 R 40 40 0 0 B
+X VBUS B9 -300 600 100 R 40 40 0 0 W
+X SHELL P1 -300 -500 100 R 40 40 0 0 P
+X SHELL P2 -300 -500 100 R 40 40 0 0 P
+X SHELL P3 -300 -500 100 R 40 40 0 0 P
+X SHELL P4 -300 -500 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# W25Q32JVSSIQ
+#
+DEF W25Q32JVSSIQ U 0 40 Y Y 1 F N
+F0 "U" -500 425 50 H V L BNN
+F1 "W25Q32JVSSIQ" -500 -475 50 H V L BNN
+F2 "Flying_Camp_Design:W25Q32JVSSIQ" 0 0 50 H I L BNN
+F3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" 0 0 50 H I L BNN
+F4 "Winbond Electronics" 0 0 50 H I L BNN "Manufacturer"
+F5 "W25Q32JVSSIQ" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "W25Q32JVSSIQ-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztbfp7" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -500 400 500 -400 1 1 10 f
+X ~CS~ 1 -700 300 200 R 40 40 0 0 I
+X DO(IO1) 2 -700 -200 200 R 40 40 0 0 B
+X ~WP!(IO2)~ 3 -700 -300 200 R 40 40 0 0 B
+X GND 4 700 -300 200 L 40 40 0 0 W
+X DI(IO0) 5 -700 -100 200 R 40 40 0 0 B
+X CLK 6 -700 200 200 R 40 40 0 0 I C
+X ~HOLD!/!RESET!(IO3)~ 7 -700 0 200 R 40 40 0 0 B
+X VCC 8 700 300 200 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# W25Q32JVZPIQ
+#
+DEF W25Q32JVZPIQ U 0 40 Y Y 1 F N
+F0 "U" -600 425 50 H V L BNN
+F1 "W25Q32JVZPIQ" -600 -475 50 H V L BNN
+F2 "Flying_Camp_Design:W25Q32JVZPIQ" 0 0 50 H I L BNN
+F3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" 0 0 50 H I L BNN
+F4 "Winbond Electronics" 0 0 50 H I L BNN "Manufacturer"
+F5 "W25Q32JVZPIQ" 0 0 50 H I L BNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 0 50 H I L BNN "Vendor"
+F7 "W25Q32JVZPIQ-ND" 0 0 50 H I L BNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztb520" 0 0 50 H I L BNN "Vendor URL"
+DRAW
+S -600 400 600 -400 1 1 10 f
+X ~CS~ 1 -800 200 200 R 40 40 0 0 I
+X DO(IO1) 2 -800 -100 200 R 40 40 0 0 B
+X ~WP!(IO2)~ 3 -800 -200 200 R 40 40 0 0 B
+X GND 4 800 -300 200 L 40 40 0 0 W
+X DI(IO0) 5 -800 0 200 R 40 40 0 0 B
+X CLK 6 -800 300 200 R 40 40 0 0 I C
+X ~HOLD/RESET!(IO3)~ 7 -800 -300 200 R 40 40 0 0 B
+X VCC 8 800 300 200 L 40 40 0 0 W
+X EXP 9 800 -100 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
