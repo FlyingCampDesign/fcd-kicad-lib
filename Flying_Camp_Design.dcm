@@ -35,6 +35,22 @@ D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, 
 F https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=DM3BT-DSF-PEJS
 $ENDCMP
 #
+$CMP FEATHER-HEADER-12POS-PTH
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
+$CMP FEATHER-HEADER-16POS-PTH
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
+$CMP FEATHER-MODULE
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
+$CMP FEATHER-MOUNTING-HOLES
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
 $CMP GCM155R71C104KA55D
 D Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R
 F https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf
@@ -58,6 +74,11 @@ $ENDCMP
 $CMP NEOPIXEL-MINI
 D Addressable Lighting Neopixel 10 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W
 F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$ENDCMP
+#
+$CMP PARTICLE-ARGON-V1
+D Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Chip + U.FL Through Hole
+F https://docs.particle.io/assets/pdfs/datasheets/argon-datasheet.pdf
 $ENDCMP
 #
 $CMP S2B-PH-SM4-TB(LF)(SN)
