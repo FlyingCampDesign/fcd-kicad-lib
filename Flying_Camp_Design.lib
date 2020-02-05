@@ -245,7 +245,12 @@ DEF FEATHER-HEADER-12POS-PTH J 0 40 N Y 1 F N
 F0 "J" 0 700 50 H V L CNN
 F1 "FEATHER-HEADER-12POS-PTH" 0 -600 50 H V L CNN
 F2 "Flying_Camp_Design:FEATHER-HEADER-12POS-PTH" 0 -700 50 H I C CNN
-F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -800 50 H I C CNN
+F3 "" 0 -800 50 H I C CNN
+F4 "Test Manufacturer" 0 -800 50 H I C CNN "Manufacturer"
+F5 "12345" 0 -900 50 H I C CNN "Manufacturer Part Number"
+F6 "Test Vendor" 0 -1000 50 H I C CNN "Vendor"
+F7 "54321" 0 -1100 50 H I C CNN "Vendor Part Number"
+F8 "https://www.example.com" 0 -1200 50 H I C CNN "Vendor URL"
 DRAW
 X D2 D2 100 -300 100 L 50 50 0 0 P
 X D3 D3 100 -200 100 L 50 50 0 0 P
@@ -268,7 +273,12 @@ DEF FEATHER-HEADER-16POS-PTH J 0 40 N Y 1 F N
 F0 "J" 0 900 50 H V L CNN
 F1 "FEATHER-HEADER-16POS-PTH" 0 -800 50 H V L CNN
 F2 "Flying_Camp_Design:FEATHER-HEADER-16POS-PTH" 0 -900 50 H I C CNN
-F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -1000 50 H I C CNN
+F3 "" 0 -1000 50 H I C CNN
+F4 "Test Manufacturer" 0 -1000 50 H I C CNN "Manufacturer"
+F5 "12345" 0 -1100 50 H I C CNN "Manufacturer Part Number"
+F6 "Test Vendor" 0 -1200 50 H I C CNN "Vendor"
+F7 "54321" 0 -1300 50 H I C CNN "Vendor Part Number"
+F8 "https://www.example.com" 0 -1400 50 H I C CNN "Vendor URL"
 $FPLIST
  FEATHER-HEADER-16POS*
 $ENDFPLIST
@@ -298,7 +308,7 @@ DEF FEATHER-MODULE A 0 40 N Y 1 F N
 F0 "A" 0 1000 50 H V L CNN
 F1 "FEATHER-MODULE" 0 -900 50 H V L CNN
 F2 "Flying_Camp_Design:FEATHER-MODULE" 0 -1000 50 H I C CNN
-F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -1100 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
 DRAW
 S -400 900 400 -800 0 1 0 f
 ENDDRAW
@@ -310,7 +320,7 @@ DEF FEATHER-MOUNTING-HOLES MH 0 40 N Y 1 F N
 F0 "MH" 0 100 50 H I C CNN
 F1 "FEATHER-MOUNTING-HOLES" 0 -200 50 H I C CNN
 F2 "Flying_Camp_Design:FEATHER-MOUNTING-HOLES" 0 -300 50 H I C CNN
-F3 "https://learn.adafruit.com/adafruit-feather/feather-specification" 0 -400 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
 DRAW
 X MH1 MH1 100 0 100 L 50 50 0 0 P
 X MH2 MH2 100 -100 100 L 50 50 0 0 P
@@ -437,7 +447,12 @@ DEF PARTICLE-ARGON-V1 A 0 40 N Y 1 F N
 F0 "A" 0 1000 50 H V C CNN
 F1 "PARTICLE-ARGON-V1" 0 -900 50 H V C CNN
 F2 "Flying_Camp_Design:PARTICLE-ARGON-V1" 0 -1000 50 H I C CNN
-F3 "https://docs.particle.io/assets/pdfs/datasheets/argon-datasheet.pdf" 0 -1100 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
+F4 "Particle Industries, Inc." 0 -1100 50 H I C CNN "Manufacturer"
+F5 "ARGN-H" 0 -1200 50 H I C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1300 50 H I C CNN "Vendor"
+F7 "1878-1022-ND" 0 -1400 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z3848m" 0 -1500 50 H I C CNN "Vendor URL"
 DRAW
 S -400 900 400 -800 0 1 0 f
 ENDDRAW

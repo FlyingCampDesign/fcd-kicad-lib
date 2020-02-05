@@ -36,18 +36,22 @@ F https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&la
 $ENDCMP
 #
 $CMP FEATHER-HEADER-12POS-PTH
+D 12 position plug-in header for Adafruit Feather Wings
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
 $CMP FEATHER-HEADER-16POS-PTH
+D 16 position plug-in header for Adafruit Feather modules
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
 $CMP FEATHER-MODULE
+D Empty placeholder for Adafruit Feather modules
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
 $CMP FEATHER-MOUNTING-HOLES
+D Mounting holes for Adafruit Feather modules
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
