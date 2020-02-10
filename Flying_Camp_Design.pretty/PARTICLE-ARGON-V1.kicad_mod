@@ -1,9 +1,9 @@
-(module PARTICLE-ARGON-V1 (layer F.Cu) (tedit 5E3B1459)
+(module PARTICLE-ARGON-V1 (layer F.Cu) (tedit 5E3EFD3E)
   (descr "Adafruit Feather plug-in module")
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value PARTICLE-ARGON-V1 (at 0 0) (layer F.Fab)
+  (fp_text value PARTICLE-ARGON-V1 (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start -22.86 -8.89) (end -22.86 -11.43) (angle -90) (layer F.SilkS) (width 0.12))

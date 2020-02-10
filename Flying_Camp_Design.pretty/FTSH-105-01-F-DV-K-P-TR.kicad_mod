@@ -1,10 +1,10 @@
-(module FTSH-105-01-F-DV-K-P-TR (layer F.Cu) (tedit 5E2A0A71)
+(module FTSH-105-01-F-DV-K-P-TR (layer F.Cu) (tedit 5E3EFCE5)
   (descr "Connector Header Surface Mount 10 position 0.050\" (1.27mm)")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FTSH-105-01-F-DV-K-P-TR (at 0 0) (layer F.Fab)
+  (fp_text value FTSH-105-01-F-DV-K-P-TR (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.743 2.921) (end -2.743 1.714) (layer F.Fab) (width 0.127))

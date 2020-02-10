@@ -1,9 +1,9 @@
-(module 1-1825027-1 (layer F.Cu) (tedit 5E273E97)
+(module 1-1825027-1 (layer F.Cu) (tedit 5E3EFDAC)
   (descr "Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole")
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 1-1825027-1 (at 0 0) (layer F.Fab)
+  (fp_text value 1-1825027-1 (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 0 0) (layer F.Fab)
