@@ -1,4 +1,4 @@
-(module FEATHER-MOUNTING-HOLES (layer F.Cu) (tedit 5E3B142F)
+(module FEATHER-MOUNTING-HOLES (layer F.Cu) (tedit 5E3EFCDC)
   (descr "Mounting holes for Adafruit Feather")
   (attr virtual)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
