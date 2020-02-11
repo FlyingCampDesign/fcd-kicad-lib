@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (( 'STEP AP214' ),
     '1' );
-FILE_NAME ('TE USB 2129691-1.STEP',
+FILE_NAME ('TE USB 2129691-1.step',
     '2015-11-29T03:16:24',
     ( '' ),
     ( '' ),

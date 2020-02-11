@@ -45,7 +45,7 @@
   (pad P2 thru_hole oval (at 4.325 -3.045) (size 1.108 2.216) (drill oval 0.6 2.1) (layers *.Cu *.Mask))
   (pad P3 thru_hole oval (at 4.325 0.335) (size 1.108 2.216) (drill oval 0.6 1.4) (layers *.Cu *.Mask))
   (pad P4 thru_hole oval (at -4.325 0.335) (size 1.108 2.216) (drill oval 0.6 1.4) (layers *.Cu *.Mask))
-  (model :Flying_Camp_Design:USB4085-GF-A.STEP
+  (model :Flying_Camp_Design:USB4085-GF-A.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

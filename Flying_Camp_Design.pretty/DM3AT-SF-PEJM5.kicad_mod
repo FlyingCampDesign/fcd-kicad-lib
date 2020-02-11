@@ -74,7 +74,7 @@
   (pad SWA smd rect (at -6.4 10.5) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad P2 smd rect (at -6.4 14.65) (size 1 2.8) (layers F.Cu F.Paste F.Mask))
   (pad P3 smd rect (at 7.1 15.1) (size 1.3 1.9) (layers F.Cu F.Paste F.Mask))
-  (model :Flying_Camp_Design:DM3AT-SF-PEJM5.STEP
+  (model :Flying_Camp_Design:DM3AT-SF-PEJM5.step
     (offset (xyz 0.2032 0.1016 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

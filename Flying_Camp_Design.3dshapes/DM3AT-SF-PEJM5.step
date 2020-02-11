@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (( 'STEP AP214' ),
     '1' );
-FILE_NAME ('DM3AT-SF-PEJM5.STEP',
+FILE_NAME ('DM3AT-SF-PEJM5.step',
     '2018-10-05T20:57:01',
     ( '' ),
     ( '' ),

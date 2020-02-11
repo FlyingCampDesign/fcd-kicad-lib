@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (( 'STEP AP214' ),
     '1' );
-FILE_NAME ('USB4085-GF-A.STEP',
+FILE_NAME ('USB4085-GF-A.step',
     '2020-01-23T18:49:49',
     ( '' ),
     ( '' ),

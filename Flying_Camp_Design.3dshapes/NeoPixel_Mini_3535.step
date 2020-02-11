@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (( 'STEP AP203' ),
     '1' );
-FILE_NAME ('2659.STEP',
+FILE_NAME ('2659.step',
     '2018-10-03T13:33:33',
     ( '' ),
     ( '' ),

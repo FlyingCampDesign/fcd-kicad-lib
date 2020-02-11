@@ -35,7 +35,7 @@ D Conn USB 3.1 Type C RCP 24 POS Solder RA SMD/Thru-Hole 24 Terminal 1 Port Auto
 F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2129691_Dwg.pdf
 $ENDCMP
 #
-$CMP ARM-CORTEX-M-DEBUG-10POS-KEY
+$CMP ARM_Cortex-M_debug_10pos_key
 D Connector Header Surface Mount 10 position 0.050" (1.27mm)
 F http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf
 $ENDCMP
@@ -50,32 +50,32 @@ D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, 
 F https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=DM3BT-DSF-PEJS
 $ENDCMP
 #
-$CMP FEATHER-HEADER-12POS-PTH
+$CMP Adafruit_Feather_socket_header_right_pth
 D Right (12pos) PTH header for Adafruit Feather plug-in module
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
-$CMP FEATHER-HEADER-16POS-PTH
+$CMP Adafruit_Feather_socket_header_left_pth
 D Left (16pos) PTH header for Adafruit Feather plug-in module
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
-$CMP FEATHER-LOGO
+$CMP Adafruit_Feather_logo
 D Adafruit Feather logo
 F ~
 $ENDCMP
 #
-$CMP FEATHER-MODULE
+$CMP Adafruit_Feather_socket_empty
 D Generic symbol for Adafruit Feather plug-in module
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
-$CMP FEATHER-MOUNTING-HOLES
+$CMP Adafruit_Feather_socket_mounting_holes
 D Mounting holes for Adafruit Feather plug-in module
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
-$CMP FIDUCIAL
+$CMP Fiducial_1mm_Mask2mm
 D Fiducial Marker (1mm, 2mm Mask)
 F ~
 $ENDCMP
@@ -125,32 +125,32 @@ D Power symbol creates a global label with name "MCU_VDDA"
 K power-flag
 $ENDCMP
 #
-$CMP MIKROBUS-HEADER-LEFT-PTH
+$CMP mikroBUS_socket_header_left_pth
 D Left (8pos) PTH header for mikroBUS plug-in module
 F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
-$CMP MIKROBUS-HEADER-RIGHT-PTH
+$CMP mikroBUS_socket_header_right_pth
 D Right (8pos) PTH header for mikroBUS plug-in module
 F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
-$CMP MIKROBUS-MODULE
+$CMP mikroBUS_socket_empty
 D Generic symbol for mikroBUS plug-in module
 F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
-$CMP MIKROBUS_LOGO
+$CMP mikroBUS_logo
 D mikroBUS logo
 F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
-$CMP NEOPIXEL-MINI
+$CMP NeoPixel_Mini_3535
 D Addressable Lighting Neopixel 10 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W
 F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
 $ENDCMP
 #
-$CMP PARTICLE-ARGON-V1
+$CMP Particle_Argon_V1
 D Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Chip + U.FL Through Hole
 F https://docs.particle.io/assets/pdfs/datasheets/argon-datasheet.pdf
 $ENDCMP

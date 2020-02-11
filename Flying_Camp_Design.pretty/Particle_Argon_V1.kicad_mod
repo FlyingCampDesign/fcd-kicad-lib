@@ -1,9 +1,9 @@
-(module PARTICLE-ARGON-V1 (layer F.Cu) (tedit 5E3EFD3E)
+(module Particle_Argon_V1 (layer F.Cu) (tedit 5E3EFD3E)
   (descr "Adafruit Feather plug-in module")
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value PARTICLE-ARGON-V1 (at 0 0) (layer F.Fab) hide
+  (fp_text value Particle_Argon_V1 (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start -22.86 -8.89) (end -22.86 -11.43) (angle -90) (layer F.SilkS) (width 0.12))
@@ -32,7 +32,7 @@
   (fp_circle (center 0 0) (end 1.27 0) (layer Dwgs.User) (width 0.1))
   (fp_line (start 0 -2.54) (end 0 2.54) (layer Dwgs.User) (width 0.1))
   (fp_line (start -2.54 0) (end 2.54 0) (layer Dwgs.User) (width 0.1))
-  (model :Flying_Camp_Design:PARTICLE-ARGON-V1.STEP
+  (model :Flying_Camp_Design:Particle_Argon_V1.step
     (offset (xyz 25.4 -11.43 9.651999999999999))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

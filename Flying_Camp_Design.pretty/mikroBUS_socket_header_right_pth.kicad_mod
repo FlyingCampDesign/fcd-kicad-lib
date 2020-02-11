@@ -1,10 +1,10 @@
-(module MIKROBUS-HEADER-RIGHT-PTH (layer F.Cu) (tedit 5E401D97)
+(module mikroBUS_socket_header_right_pth (layer F.Cu) (tedit 5E401D97)
   (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x08 2.54mm single row")
   (fp_text reference REF** (at 11.43 -11.43 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value MIKROBUS-HEADER-RIGHT-PTH (at 0 0 unlocked) (layer F.Fab) hide
+  (fp_text value mikroBUS_socket_header_right_pth (at 0 0 unlocked) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 10.795 -10.16) (end 12.7 -10.16) (layer F.Fab) (width 0.1))

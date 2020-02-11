@@ -24,7 +24,7 @@
   (pad 2 smd rect (at 4.55 -2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
-  (model :Flying_Camp_Design:2-1437565-7.STEP
+  (model :Flying_Camp_Design:2-1437565-7.step
     (offset (xyz 0 0 3.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

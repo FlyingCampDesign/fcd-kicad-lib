@@ -1,4 +1,4 @@
-(module FEATHER-HEADER-12POS-PTH (layer F.Cu) (tedit 5E401DC1)
+(module Adafruit_Feather_socket_header_right_pth (layer F.Cu) (tedit 5E401DC1)
   (descr "Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
   (tags "Through hole socket strip THT 1x12 2.54mm single row")
   (fp_text reference REF** (at 10.16 -11.66 unlocked) (layer F.SilkS)
@@ -120,7 +120,7 @@
   (pad D2 thru_hole oval (at 10.16 13.97) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad SCL thru_hole oval (at 10.16 16.51) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad SDA thru_hole oval (at 10.16 19.05) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model :Flying_Camp_Design:FEATHER-HEADER-12POS-PTH.wrl
+  (model :Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth.wrl
     (offset (xyz 10.16 8.890000000000001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
