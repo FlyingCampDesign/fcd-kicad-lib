@@ -40,6 +40,31 @@ D Connector Header Surface Mount 10 position 0.050" (1.27mm)
 F http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf
 $ENDCMP
 #
+$CMP Adafruit_Feather_logo
+D Adafruit Feather logo
+F ~
+$ENDCMP
+#
+$CMP Adafruit_Feather_socket_empty
+D Generic symbol for Adafruit Feather plug-in module socket
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
+$CMP Adafruit_Feather_socket_header_left_pth
+D Left (16pos) PTH header for Adafruit Feather plug-in module socket
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
+$CMP Adafruit_Feather_socket_header_right_pth
+D Right (12pos) PTH header for Adafruit Feather plug-in module socket
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
+$CMP Adafruit_Feather_socket_mounting_holes
+D Mounting holes for Adafruit Feather plug-in module socket
+F https://learn.adafruit.com/adafruit-feather/feather-specification
+$ENDCMP
+#
 $CMP DM3AT-SF-PEJM5
 D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
 F https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en
@@ -48,31 +73,6 @@ $ENDCMP
 $CMP DM3BT-DSF-PEJS
 D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
 F https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=DM3BT-DSF-PEJS
-$ENDCMP
-#
-$CMP Adafruit_Feather_socket_header_right_pth
-D Right (12pos) PTH header for Adafruit Feather plug-in module
-F https://learn.adafruit.com/adafruit-feather/feather-specification
-$ENDCMP
-#
-$CMP Adafruit_Feather_socket_header_left_pth
-D Left (16pos) PTH header for Adafruit Feather plug-in module
-F https://learn.adafruit.com/adafruit-feather/feather-specification
-$ENDCMP
-#
-$CMP Adafruit_Feather_logo
-D Adafruit Feather logo
-F ~
-$ENDCMP
-#
-$CMP Adafruit_Feather_socket_empty
-D Generic symbol for Adafruit Feather plug-in module
-F https://learn.adafruit.com/adafruit-feather/feather-specification
-$ENDCMP
-#
-$CMP Adafruit_Feather_socket_mounting_holes
-D Mounting holes for Adafruit Feather plug-in module
-F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
 $CMP Fiducial_1mm_Mask2mm
@@ -123,26 +123,6 @@ $ENDCMP
 $CMP MCU_VDDA
 D Power symbol creates a global label with name "MCU_VDDA"
 K power-flag
-$ENDCMP
-#
-$CMP mikroBUS_socket_header_left_pth
-D Left (8pos) PTH header for mikroBUS plug-in module
-F https://www.mikroe.com/mikrobus
-$ENDCMP
-#
-$CMP mikroBUS_socket_header_right_pth
-D Right (8pos) PTH header for mikroBUS plug-in module
-F https://www.mikroe.com/mikrobus
-$ENDCMP
-#
-$CMP mikroBUS_socket_empty
-D Generic symbol for mikroBUS plug-in module
-F https://www.mikroe.com/mikrobus
-$ENDCMP
-#
-$CMP mikroBUS_logo
-D mikroBUS logo
-F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
 $CMP NeoPixel_Mini_3535
@@ -218,6 +198,26 @@ $ENDCMP
 $CMP W25Q32JVZPIQ
 D FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5)
 F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP mikroBUS_logo
+D mikroBUS logo
+F https://www.mikroe.com/mikrobus
+$ENDCMP
+#
+$CMP mikroBUS_socket_empty
+D Generic symbol for mikroBUS plug-in module socket
+F https://www.mikroe.com/mikrobus
+$ENDCMP
+#
+$CMP mikroBUS_socket_header_left_pth
+D Left (8pos) PTH header for mikroBUS plug-in module socket
+F https://www.mikroe.com/mikrobus
+$ENDCMP
+#
+$CMP mikroBUS_socket_header_right_pth
+D Right (8pos) PTH header for mikroBUS plug-in module socket
+F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
 #End Doc Library

@@ -1,5 +1,5 @@
-(module mikroBUS-Logo_11.9x4.1mm_SilkScreen (layer F.Cu) (tedit 5E3C6BD7)
-  (tags "mikroBUS logo")
+(module mikroBUS-Logo_11.9x4.1mm_SilkScreen (layer F.Cu) (tedit 5E43A7D3)
+  (descr "mikroBUS logo")
   (attr virtual)
   (fp_text reference REF** (at 0 -12.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
