@@ -918,6 +918,18 @@ X EXP 9 800 -100 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
+# clicky_v1
+#
+DEF clicky_v1 A 0 40 Y Y 1 F N
+F0 "A" 0 900 50 H V L CNN
+F1 "clicky_v1" 0 -500 50 H V L CNN
+F2 "Flying_Camp_Design:clicky_v1" 0 -600 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 -400 400 800 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # mikroBUS_logo
 #
 DEF mikroBUS_logo LOGO 0 40 Y Y 1 F N
@@ -986,6 +998,18 @@ X RX RX 100 100 100 L 50 50 0 0 P
 X SCL SCL 100 -100 100 L 50 50 0 0 P
 X SDA SDA 100 -200 100 L 50 50 0 0 P
 X TX TX 100 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# orangecrab_r0.2
+#
+DEF orangecrab_r0.2 A 0 40 N Y 1 F N
+F0 "A" 0 1000 50 H V C CNN
+F1 "orangecrab_r0.2" 0 -900 50 H V C CNN
+F2 "Flying_Camp_Design:orangecrab_r0.2" 0 -1000 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
+DRAW
+S -400 900 400 -800 0 1 0 f
 ENDDRAW
 ENDDEF
 #

@@ -200,6 +200,10 @@ D FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5)
 F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
+$CMP clicky_v1
+F https://github.com/FlyingCampDesign/clicky
+$ENDCMP
+#
 $CMP mikroBUS_logo
 D mikroBUS logo
 F https://www.mikroe.com/mikrobus
@@ -218,6 +222,10 @@ $ENDCMP
 $CMP mikroBUS_socket_header_right_pth
 D Right (8pos) PTH header for mikroBUS plug-in module socket
 F https://www.mikroe.com/mikrobus
+$ENDCMP
+#
+$CMP orangecrab_r0.2
+F https://github.com/gregdavill/OrangeCrab
 $ENDCMP
 #
 #End Doc Library
