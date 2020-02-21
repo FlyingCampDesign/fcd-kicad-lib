@@ -15,38 +15,18 @@ D Power symbol creates a global label with name "+5V"
 K power-flag
 $ENDCMP
 #
-$CMP 1-1825027-1
-D Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
-F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English
-$ENDCMP
-#
-$CMP 1734328-2
-D Conn Mini USB 2.0 Type AB RCP 5 POS 0.8mm Solder RA SMD 5 Terminal 1 Port T/R
-F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734328&DocType=Customer+Drawing&DocLang=English
-$ENDCMP
-#
-$CMP 2-1437565-7
-D Tactile Switch SPST-NO Top Actuated Surface Mount
-F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English
-$ENDCMP
-#
-$CMP 2129691-1
-D Conn USB 3.1 Type C RCP 24 POS Solder RA SMD/Thru-Hole 24 Terminal 1 Port Automotive T/R
-F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2129691_Dwg.pdf
-$ENDCMP
-#
 $CMP ARM_Cortex-M_debug_10pos_key
 D Connector Header Surface Mount 10 position 0.050" (1.27mm)
 F http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf
 $ENDCMP
 #
-$CMP Adafruit_Feather_logo
-D Adafruit Feather logo
-F ~
+$CMP Adafruit_2659
+D NeoPixel Mini 3535: Addressable Lighting Neopixel 10 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W
+F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
 $ENDCMP
 #
-$CMP Adafruit_Feather_socket_empty
-D Generic symbol for Adafruit Feather plug-in module socket
+$CMP Adafruit_Feather_logo_13.87x6.33mm_silkscreen
+D Adafruit Feather logo 13.87x6.33mm silkscreen
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
@@ -65,14 +45,14 @@ D Mounting holes for Adafruit Feather plug-in module socket
 F https://learn.adafruit.com/adafruit-feather/feather-specification
 $ENDCMP
 #
-$CMP DM3AT-SF-PEJM5
-D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
-F https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en
+$CMP C_and_K_JS102011SAQN
+D Slide Switch SPDT Surface Mount, Right Angle
+F https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
 $ENDCMP
 #
-$CMP DM3BT-DSF-PEJS
-D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
-F https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=DM3BT-DSF-PEJS
+$CMP C_and_K_KMR421GULCLFS
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+F https://dznh3ojzb2azq.cloudfront.net/products/Tactile/KMR4/documents/datasheet.pdf
 $ENDCMP
 #
 $CMP Fiducial_1mm_Mask2mm
@@ -80,9 +60,9 @@ D Fiducial Marker (1mm, 2mm Mask)
 F ~
 $ENDCMP
 #
-$CMP GCM155R71C104KA55D
-D Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R
-F https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf
+$CMP GCT_USB4085-GF-A
+D USB - C (Type - C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Through Hole, Right Angle
+F https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf
 $ENDCMP
 #
 $CMP GND
@@ -90,29 +70,24 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
-$CMP GRM188R72A104KA35D
-D 0.1µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)
-F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
+$CMP Hirose_DM3AT-SF-PEJM5
+D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
+F https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en
 $ENDCMP
 #
-$CMP JS102011SAQN
-D Slide Switch SPDT Surface Mount, Right Angle
-F https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+$CMP Hirose_DM3BT-DSF-PEJS
+D 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
+F https://www.hirose.com/product/download/?distributor=digikey&type=specSheet&lang=en&num=DM3BT-DSF-PEJS
 $ENDCMP
 #
-$CMP KMR421GULCLFS
-D Tactile Switch SPST-NO Top Actuated Surface Mount
-F https://dznh3ojzb2azq.cloudfront.net/products/Tactile/KMR4/documents/datasheet.pdf
+$CMP JST_S2B-PH-SM4-TB_LF_SN
+D Connector Header Surface Mount, Right Angle 2 position 0.079" (2.00mm)
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
-$CMP LTST-C191KGKT
+$CMP Lite-On_LTST-C191KGKT
 D Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)
 F http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF
-$ENDCMP
-#
-$CMP MAX6816
-D Single Switch Debouncer, SOT-143
-F https://datasheets.maximintegrated.com/en/ds/1896.pdf
 $ENDCMP
 #
 $CMP MCU_VBAT
@@ -125,88 +100,108 @@ D Power symbol creates a global label with name "MCU_VDDA"
 K power-flag
 $ENDCMP
 #
-$CMP NeoPixel_Mini_3535
-D Addressable Lighting Neopixel 10 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W
-F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$CMP Maxim_MAX6816
+D Single Switch Debouncer, SOT-143
+F https://datasheets.maximintegrated.com/en/ds/1896.pdf
 $ENDCMP
 #
-$CMP Particle_Argon_V1
+$CMP Mikroe_MIKROE-1585
+D PSP27801, SSD1351 OLED 1.1" Display mikroBUS™ Click™ Platform Evaluation Expansion Board
+F https://www.mikroe.com/oled-c-click
+$ENDCMP
+#
+$CMP Murata_GCM155R71C104KA55D
+D Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R
+F https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf
+$ENDCMP
+#
+$CMP Murata_GRM188R72A104KA35D
+D 0.1µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
+$ENDCMP
+#
+$CMP Particle_ARGN-H
 D Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Chip + U.FL Through Hole
 F https://docs.particle.io/assets/pdfs/datasheets/argon-datasheet.pdf
 $ENDCMP
 #
-$CMP RC0402JR-070RL
-D 0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$CMP TE_1-1825027-1
+D Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English
 $ENDCMP
 #
-$CMP RC0603JR-070RL
-D 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$CMP TE_1734328-2
+D Conn Mini USB 2.0 Type AB RCP 5 POS 0.8mm Solder RA SMD 5 Terminal 1 Port T/R
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734328&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
-$CMP RC0603JR-07100KL
-D 100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$CMP TE_2-1437565-7
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English
 $ENDCMP
 #
-$CMP RC0603JR-07100RL
-D 100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$CMP TE_2129691-1
+D Conn USB 3.1 Type C RCP 24 POS Solder RA SMD/Thru-Hole 24 Terminal 1 Port Automotive T/R
+F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2129691_Dwg.pdf
 $ENDCMP
 #
-$CMP RC0603JR-0710KL
-D 10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
-$ENDCMP
-#
-$CMP RC0603JR-071KL
-D 1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
-$ENDCMP
-#
-$CMP RC0603JR-072K2L
-D 2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
-$ENDCMP
-#
-$CMP RC0603JR-07330RL
-D 330 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
-$ENDCMP
-#
-$CMP RC0603JR-074K7L
-D 4.7 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
-$ENDCMP
-#
-$CMP S2B-PH-SM4-TB(LF)(SN)
-D Connector Header Surface Mount, Right Angle 2 position 0.079" (2.00mm)
-F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-$ENDCMP
-#
-$CMP USB4085-GF-A
-D USB - C (Type - C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Through Hole, Right Angle
-F https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf
-$ENDCMP
-#
-$CMP W25Q32JVSSIQ
+$CMP Winbond_W25Q32JVSSIQ
 D FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133MHz 8-SOIC
 F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
-$CMP W25Q32JVZPIQ
+$CMP Winbond_W25Q32JVZPIQ
 D FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133MHz 8-WSON (6x5)
 F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
-$CMP mikroBUS_logo
-D mikroBUS logo
-F https://www.mikroe.com/mikrobus
+$CMP Yageo_RC0402JR-070RL
+D 0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
-$CMP mikroBUS_socket_empty
-D Generic symbol for mikroBUS plug-in module socket
+$CMP Yageo_RC0603JR-070RL
+D 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-07100KL
+D 100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-07100RL
+D 100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-0710KL
+D 10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-071KL
+D 1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-072K2L
+D 2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-07330RL
+D 330 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Yageo_RC0603JR-074K7L
+D 4.7 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP mikroBUS-Logo_11.9x4.1mm_SilkScreen
+D mikroBUS logo 11.9x4.1mm silkscreen
 F https://www.mikroe.com/mikrobus
 $ENDCMP
 #

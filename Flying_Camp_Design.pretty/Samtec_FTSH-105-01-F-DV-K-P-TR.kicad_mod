@@ -1,10 +1,10 @@
-(module FTSH-105-01-F-DV-K-P-TR (layer F.Cu) (tedit 5E3EFCE5)
+(module Samtec_FTSH-105-01-F-DV-K-P-TR (layer F.Cu) (tedit 5E4F63F6)
   (descr "Connector Header Surface Mount 10 position 0.050\" (1.27mm)")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FTSH-105-01-F-DV-K-P-TR (at 0 0) (layer F.Fab) hide
+  (fp_text value Samtec_FTSH-105-01-F-DV-K-P-TR (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.743 2.921) (end -2.743 1.714) (layer F.Fab) (width 0.127))
@@ -141,8 +141,8 @@
   (pad 8 smd rect (at 1.27 -2.032) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 2.54 2.032) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 2.54 -2.032) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
-  (model :Flying_Camp_Design:FTSH-105-01-F-DV-K-TR.step
-    (at (xyz 0 0 0))
+  (model :Flying_Camp_Design:Samtec_FTSH-105-01-F-DV-K-TR.step
+    (offset (xyz 0 0 0.381))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

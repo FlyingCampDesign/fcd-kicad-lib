@@ -1,11 +1,11 @@
-(module Fiducial_1mm_Mask3mm (layer F.Cu) (tedit 5E3F3058)
+(module Fiducial_1mm_Mask3mm (layer F.Cu) (tedit 5E4F6155)
   (descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
   (tags fiducial)
   (attr smd)
-  (fp_text reference REF** (at 0 -2.54) (layer F.SilkS) hide
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Fiducial_1mm_Mask3mm (at 0 2.286) (layer F.Fab) hide
+  (fp_text value Fiducial_1mm_Mask3mm (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
