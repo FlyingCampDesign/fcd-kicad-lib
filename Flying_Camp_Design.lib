@@ -36,11 +36,11 @@ ENDDEF
 #
 DEF ARM_Cortex-M_debug_10pos_key J 0 40 Y Y 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "ARM_Cortex-M_debug_10pos_key" 0 -500 50 H V C CNN
-F2 "Flying_Camp_Design:Samtec_FTSH-105-01-F-DV-K-P-TR" 0 -600 50 H I C CNN
-F3 "" 0 -700 50 H I C CNN
-F4 "Samtec Inc." 0 -800 50 H I C CNN "Manufacturer"
-F5 "FTSH-105-01-F-DV-K-P-TR" 0 -900 50 H I C CNN "Manufacturer Part Number"
+F1 "ARM_Cortex-M_debug_10pos_key" 0 -700 50 H I C CNN
+F2 "Flying_Camp_Design:Samtec_FTSH-105-01-F-DV-K-P-TR" 0 -800 50 H I C CNN
+F3 "" 0 -900 50 H I C CNN
+F4 "Samtec Inc." 0 -500 50 H V C CNN "Manufacturer"
+F5 "FTSH-105-01-F-DV-K-P-TR" 0 -600 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1000 50 H I C CNN "Vendor"
 F7 "SAM13159CT-ND" 0 -1100 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztbncr" 0 -1200 50 H I C CNN "Vendor URL"
@@ -67,11 +67,11 @@ ENDDEF
 #
 DEF Adafruit_2659 D 0 40 Y Y 1 F N
 F0 "D" 0 400 50 H V C CNN
-F1 "Adafruit_2659" 0 -400 50 H V C CNN
-F2 "Flying_Camp_Design:NeoPixel_Mini_3535" 0 -500 50 H I C CNN
-F3 "" 0 -600 50 H I C CNN
-F4 "Adafruit Industries LLC" 0 -700 50 H I C CNN "Manufacturer"
-F5 "2659" 0 -800 50 H I C CNN "Manufacturer Part Number"
+F1 "Adafruit_2659" 0 -600 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_2659" 0 -700 50 H I C CNN
+F3 "" 0 -800 50 H I C CNN
+F4 "Adafruit Industries LLC" 0 -400 50 H V C CNN "Manufacturer"
+F5 "2659" 0 -500 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -900 50 H I C CNN "Vendor"
 F7 "1528-1542-ND" 0 -1000 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/zt5702" 0 -1100 50 H I C CNN "Vendor URL"
@@ -87,10 +87,10 @@ ENDDEF
 # Adafruit_Feather_logo_13.87x6.33mm_silkscreen
 #
 DEF Adafruit_Feather_logo_13.87x6.33mm_silkscreen LOGO 0 40 Y Y 1 F N
-F0 "LOGO" 0 0 60 H I C CNN
-F1 "Adafruit_Feather_logo_13.87x6.33mm_silkscreen" 0 0 60 H I C CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen" 0 0 200 H I C CNN
-F3 "" 0 0 200 H I C CNN
+F0 "LOGO" 0 200 50 H I C CNN
+F1 "Adafruit_Feather_logo_13.87x6.33mm_silkscreen" 0 -200 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_logo_13.87x6.33mm_silkscreen" 0 -300 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
 DRAW
 P 8 0 0 1 25 -7 27 -7 29 -6 31 -6 31 4 21 4 21 -8 25 -7 F
 P 9 0 0 1 -20 56 -21 57 -24 57 -27 56 -28 56 -29 55 -29 50 -20 50 -20 56 F
@@ -117,9 +117,9 @@ ENDDEF
 #
 DEF Adafruit_Feather_socket_header_left_pth J 0 40 N Y 1 F N
 F0 "J" 0 1200 50 H V C CNN
-F1 "Adafruit_Feather_socket_header_left_pth" 0 -1100 50 H V C CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" 0 -1200 50 H I C CNN
-F3 "" -400 -1200 50 H I C CNN
+F1 "Adafruit_Feather_socket_header_left_pth" 0 -1300 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" 0 -1400 50 H I C CNN
+F3 "" 0 -1500 50 H I C CNN
 DRAW
 S -400 1100 400 -1000 0 1 0 f
 X 3V3 3V3 -500 500 100 R 50 50 0 0 w
@@ -145,9 +145,9 @@ ENDDEF
 #
 DEF Adafruit_Feather_socket_header_right_pth J 0 40 N Y 1 F N
 F0 "J" 0 1200 50 H V L CNN
-F1 "Adafruit_Feather_socket_header_right_pth" 0 -1100 50 H V C CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" 0 -1200 50 H I C CNN
-F3 "" 400 -1200 50 H I C CNN
+F1 "Adafruit_Feather_socket_header_right_pth" 0 -1300 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" 0 -1400 50 H I C CNN
+F3 "" 0 -1500 50 H I C CNN
 DRAW
 S 400 1100 -400 -1000 0 1 0 f
 X D2 D2 500 -700 100 L 50 50 0 0 P
@@ -168,13 +168,14 @@ ENDDEF
 # Adafruit_Feather_socket_mounting_holes
 #
 DEF Adafruit_Feather_socket_mounting_holes MH 0 40 N Y 1 F N
-F0 "MH" 0 100 50 H I C CNN
-F1 "Adafruit_Feather_socket_mounting_holes" 0 -200 50 H I C CNN
-F2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" 0 -300 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
+F0 "MH" 0 1200 50 H I C CNN
+F1 "Adafruit_Feather_socket_mounting_holes" 0 -1100 50 H I C CNN
+F2 "Flying_Camp_Design:Adafruit_Feather_socket_mounting_holes" 0 -1200 50 H I C CNN
+F3 "" 400 -400 50 H I C CNN
 DRAW
-X MH1 MH1 100 0 100 L 50 50 0 0 P
-X MH2 MH2 100 -100 100 L 50 50 0 0 P
+S 400 1100 -400 -1000 0 1 0 f
+X MH1 MH1 500 600 100 L 50 50 0 0 P
+X MH2 MH2 500 500 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -182,11 +183,11 @@ ENDDEF
 #
 DEF C_and_K_JS102011SAQN SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "C_and_K_JS102011SAQN" 0 -200 50 H V C CNN
-F2 "Flying_Camp_Design:C_and_K_JS102011SAQN" 0 -300 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
-F4 "C&K" 0 -500 50 H I C CNN "Manufacturer"
-F5 "JS102011SAQN" 0 -600 50 H I C CNN "Manufacturer Part Number"
+F1 "C_and_K_JS102011SAQN" 0 -400 50 H I C CNN
+F2 "Flying_Camp_Design:C_and_K_JS102011SAQN" 0 -500 50 H I C CNN
+F3 "" 0 -600 50 H I C CNN
+F4 "C&K" 0 -200 50 H V C CNN "Manufacturer"
+F5 "JS102011SAQN" 0 -300 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -700 50 H I C CNN "Vendor"
 F7 "401-1999-1-ND" 0 -800 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/z3mdnv" 0 -900 50 H I C CNN "Vendor URL"
@@ -205,11 +206,11 @@ ENDDEF
 #
 DEF C_and_K_KMR421GULCLFS SW 0 40 Y N 1 F N
 F0 "SW" 0 300 50 H V C CNN
-F1 "C_and_K_KMR421GULCLFS" 0 -300 50 H V C CNN
-F2 "Flying_Camp_Design:C_and_K_KMR421GULCLFS" 0 -400 50 H I C CNN
-F3 "" 0 -500 50 H I C CNN
-F4 "C&K" 0 -600 50 H I C CNN "Manufacturer"
-F5 "KMR421GULCLFS" 0 -700 50 H I C CNN "Manufacturer Part Number"
+F1 "C_and_K_KMR421GULCLFS" 0 -500 50 H I C CNN
+F2 "Flying_Camp_Design:C_and_K_KMR421GULCLFS" 0 -600 50 H I C CNN
+F3 "" 0 -700 50 H I C CNN
+F4 "C&K" 0 -300 50 H V C CNN "Manufacturer"
+F5 "KMR421GULCLFS" 0 -400 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -800 50 H I C CNN "Vendor"
 F7 "CKN12152CT-ND" 0 -900 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztqvzm" 0 -1000 50 H I C CNN "Vendor URL"
@@ -244,10 +245,10 @@ ENDDEF
 # Fiducial_1mm_Mask2mm
 #
 DEF Fiducial_1mm_Mask2mm FID 0 20 Y Y 1 F N
-F0 "FID" 0 200 50 H V C CNN
-F1 "Fiducial_1mm_Mask2mm" 0 125 50 H I C CNN
-F2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" 0 -100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F0 "FID" 0 100 50 H V C CNN
+F1 "Fiducial_1mm_Mask2mm" 0 -100 50 H I C CNN
+F2 "Flying_Camp_Design:Fiducial_1mm_Mask2mm" 0 -200 50 H I C CNN
+F3 "" 0 -300 50 H I C CNN
 DRAW
 C 0 0 50 0 1 20 f
 ENDDRAW
@@ -257,11 +258,11 @@ ENDDEF
 #
 DEF GCT_USB4085-GF-A J 0 40 N Y 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "GCT_USB4085-GF-A" 0 -800 50 H V C CNN
-F2 "Flying_Camp_Design:GCT_USB4085-GF-A" 0 -900 50 H I C CNN
-F3 "" 0 -1000 50 H I C CNN
-F4 "Global Connector Technology" 0 -1100 50 H I C CNN "Manufacturer"
-F5 "USB4085-GF-A" 0 -1200 50 H I C CNN "Manufacturer Part Number"
+F1 "GCT_USB4085-GF-A" 0 -1000 50 H I C CNN
+F2 "Flying_Camp_Design:GCT_USB4085-GF-A" 0 -1100 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+F4 "Global Connector Technology" 0 -800 50 H V C CNN "Manufacturer"
+F5 "USB4085-GF-A" 0 -900 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1300 50 H I C CNN "Vendor"
 F7 "2073-USB4085-GF-ACT-ND" 0 -1400 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/zt8zr7" 0 -1500 50 H I C CNN "Vendor URL"
@@ -307,14 +308,14 @@ ENDDEF
 #
 DEF Hirose_DM3AT-SF-PEJM5 J 0 40 Y Y 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "Hirose_DM3AT-SF-PEJM5" 0 -900 50 H V C CNN
-F2 "Flying_Camp_Design:Hirose_DM3AT-SF-PEJM5" 0 -1000 50 H I C CNN
-F3 "" 0 -1100 50 H I C CNN
-F4 "Hirose Connector" 0 -1200 50 H I C CNN "Manufacturer"
-F5 "DM3AT-SF-PEJM5" 0 -1300 50 H I C CNN "Manufacturer Part Number"
-F6 "Mouser" 0 -1400 50 H I C CNN "Vendor"
-F7 "798-DM3AT-SF-PEJM5" 0 -1500 50 H I C CNN "Vendor Part Number"
-F8 "https://www.mouser.com/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=sGAEpiMZZMuJakaoiLiBpvjg2IzEXJkOoUNaxaL8lrc%3D" 0 -1600 50 H I C CNN "Vendor URL"
+F1 "Hirose_DM3AT-SF-PEJM5" 0 -1100 50 H I C CNN
+F2 "Flying_Camp_Design:Hirose_DM3AT-SF-PEJM5" 0 -1200 50 H I C CNN
+F3 "" 0 -1300 50 H I C CNN
+F4 "Hirose Connector" 0 -900 50 H V C CNN "Manufacturer"
+F5 "DM3AT-SF-PEJM5" 0 -1000 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1400 50 H I C CNN "Vendor"
+F7 "HR1964CT-ND" 0 -1500 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztpp3n" 0 -1600 50 H I C CNN "Vendor URL"
 DRAW
 S -300 900 300 -800 0 1 10 N
 P 2 0 0 10 -300 -700 -300 -800 N
@@ -340,14 +341,14 @@ ENDDEF
 #
 DEF Hirose_DM3BT-DSF-PEJS J 0 40 Y Y 1 F N
 F0 "J" 0 700 50 H V C CNN
-F1 "Hirose_DM3BT-DSF-PEJS" 0 -800 50 H V C CNN
-F2 "Flying_Camp_Design:Hirose_DM3BT-DSF-PEJS" 0 -900 50 H I C CNN
-F3 "" 0 -1000 50 H I C CNN
-F4 "Hirose Connector" 0 -1100 50 H I C CNN "Manufacturer"
-F5 "DM3BT-DSF-PEJS" 0 -1200 50 H I C CNN "Manufacturer Part Number"
-F6 "Mouser" 0 -1300 50 H I C CNN "Vendor"
-F7 "798-DM3BT-DSF-PEJS" 0 -1400 50 H I C CNN "Vendor Part Number"
-F8 "https://www.mouser.com/ProductDetail/Hirose-Connector/DM3BT-DSF-PEJS?qs=%2Fha2pyFadujEJZWXWwSnCbHmJX%252BowQ%252B0yOSDNoGyryX9dXM64RPGrA%3D%3D" 0 -1500 50 H I C CNN "Vendor URL"
+F1 "Hirose_DM3BT-DSF-PEJS" 0 -1000 50 H I C CNN
+F2 "Flying_Camp_Design:Hirose_DM3BT-DSF-PEJS" 0 -1100 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+F4 "Hirose Connector" 0 -800 50 H V C CNN "Manufacturer"
+F5 "DM3BT-DSF-PEJS" 0 -900 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1300 50 H I C CNN "Vendor"
+F7 "HR1942CT-ND" 0 -1400 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztp8p9" 0 -1500 50 H I C CNN "Vendor URL"
 DRAW
 S -500 600 500 -700 0 1 10 N
 X DAT2 1 -600 100 100 R 40 40 0 0 B
@@ -371,11 +372,11 @@ ENDDEF
 #
 DEF JST_S2B-PH-SM4-TB_LF_SN J 0 40 Y Y 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "JST_S2B-PH-SM4-TB_LF_SN" 0 -400 50 H V C CNN
-F2 "Flying_Camp_Design:JST_S2B-PH-SM4-TB_LF_SN" 0 -500 50 H I C CNN
-F3 "" 0 -600 50 H I C CNN
-F4 "JST Sales America Inc." 0 -700 50 H I C CNN "Manufacturer"
-F5 "S2B-PH-SM4-TB(LF)(SN)" 0 -800 50 H I C CNN "Manufacturer Part Number"
+F1 "JST_S2B-PH-SM4-TB_LF_SN" 0 -600 50 H I C CNN
+F2 "Flying_Camp_Design:JST_S2B-PH-SM4-TB_LF_SN" 0 -700 50 H I C CNN
+F3 "" 0 -800 50 H I C CNN
+F4 "JST Sales America Inc." 0 -400 50 H V C CNN "Manufacturer"
+F5 "S2B-PH-SM4-TB(LF)(SN)" 0 -500 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -900 50 H I C CNN "Vendor"
 F7 "455-1749-1-ND" 0 -1000 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztqdqj" 0 -1100 50 H I C CNN "Vendor URL"
@@ -395,14 +396,14 @@ ENDDEF
 #
 DEF Lite-On_LTST-C191KGKT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Lite-On_LTST-C191KGKT" 0 -200 50 H I C CNN
-F2 "Flying_Camp_Design:LED_0603_1608Metric" 0 -300 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
-F4 "Lite-On Inc." 0 -500 50 H I C CNN "Manufacturer"
-F5 "LTST-C191KGKT" 0 -600 50 H I C CNN "Manufacturer Part Number"
-F6 "Digi-Key" 0 -700 50 H I C CNN "Vendor"
-F7 "160-1446-1-ND" 0 -800 50 H I C CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z35jf3" 0 -900 50 H I C CNN "Vendor URL"
+F1 "Lite-On_LTST-C191KGKT" 0 -300 50 H I C CNN
+F2 "Flying_Camp_Design:LED_0603_1608Metric" 0 -400 50 H I C CNN
+F3 "" 0 -500 50 H I C CNN
+F4 "Lite-On Inc." 0 -600 50 H I C CNN "Manufacturer"
+F5 "LTST-C191KGKT" 0 -700 50 H I C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -800 50 H I C CNN "Vendor"
+F7 "160-1446-1-ND" 0 -900 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z35jf3" 0 -1000 50 H I C CNN "Vendor URL"
 F9 "Green" 0 -150 50 H V C CNN "Color"
 DRAW
 P 2 0 1 10 -50 -50 -50 50 N
@@ -449,11 +450,11 @@ ENDDEF
 #
 DEF Maxim_MAX6816 U 0 40 Y Y 1 F N
 F0 "U" 0 400 50 H V C CNN
-F1 "Maxim_MAX6816" 0 -400 50 H V C CNN
-F2 "Flying_Camp_Design:Maxim_MAX6816" 0 -500 50 H I C CNN
-F3 "" 0 -600 50 H I C CNN
-F4 "Maxim Integrated" 0 -700 50 H I C CNN "Manufacturer"
-F5 "MAX6816EUS+T" 0 -800 50 H I C CNN "Manufacturer Part Number"
+F1 "Maxim_MAX6816" 0 -600 50 H I C CNN
+F2 "Flying_Camp_Design:Maxim_MAX6816" 0 -700 50 H I C CNN
+F3 "" 0 -800 50 H I C CNN
+F4 "Maxim Integrated" 0 -400 50 H V C CNN "Manufacturer"
+F5 "MAX6816EUS+T" 0 -500 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -900 50 H I C CNN "Vendor"
 F7 "MAX6816EUS+TCT-ND" 0 -1000 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/z3bqj8" 0 -1100 50 H I C CNN "Vendor URL"
@@ -470,11 +471,11 @@ ENDDEF
 #
 DEF Mikroe_MIKROE-1585 A 0 40 Y Y 1 F N
 F0 "A" 0 700 50 H V C CNN
-F1 "Mikroe_MIKROE-1585" 0 -700 50 H V C CNN
-F2 "Flying_Camp_Design:Mikroe_MIKROE-1585" 0 -800 50 H I C CNN
-F3 "" 0 -200 50 H I C CNN
-F4 "MikroElektronika" 0 -1000 50 H I C CNN "Manufacturer"
-F5 "MIKROE-1585" 0 -1100 50 H I C CNN "Manufacturer Part Number"
+F1 "Mikroe_MIKROE-1585" 0 -900 50 H I C CNN
+F2 "Flying_Camp_Design:Mikroe_MIKROE-1585" 0 -1000 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
+F4 "MikroElektronika" 0 -700 50 H V C CNN "Manufacturer"
+F5 "MIKROE-1585" 0 -800 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1200 50 H I C CNN "Vendor"
 F7 "1471-1388-ND" 0 -1300 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/zqptqm" 0 -1400 50 H I C CNN "Vendor URL"
@@ -487,14 +488,14 @@ ENDDEF
 #
 DEF Murata_GCM155R71C104KA55D C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Murata_GCM155R71C104KA55D" 10 -80 50 H I L CNN
-F2 "Flying_Camp_Design:C_0402_1005Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Murata Electronics" 100 -400 50 H I L CNN "Manufacturer"
-F5 "GCM155R71C104KA55D" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "490-4759-1-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/ztm8dd" 100 -800 50 H I L CNN "Vendor URL"
+F1 "Murata_GCM155R71C104KA55D" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:C_0402_1005Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Murata Electronics" 100 -500 50 H I L CNN "Manufacturer"
+F5 "GCM155R71C104KA55D" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "490-4759-1-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztm8dd" 100 -900 50 H I L CNN "Vendor URL"
 F9 "0.1uF" 10 -80 50 H V L CNN "Capacitance"
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -508,14 +509,14 @@ ENDDEF
 #
 DEF Murata_GRM188R72A104KA35D C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Murata_GRM188R72A104KA35D" 10 -80 50 H I L CNN
-F2 "Flying_Camp_Design:C_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Murata Electronics" 100 -400 50 H I L CNN "Manufacturer"
-F5 "GRM188R72A104KA35D" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "490-3285-1-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355r7" 100 -800 50 H I L CNN "Vendor URL"
+F1 "Murata_GRM188R72A104KA35D" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:C_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Murata Electronics" 100 -500 50 H I L CNN "Manufacturer"
+F5 "GRM188R72A104KA35D" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "490-3285-1-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355r7" 100 -900 50 H I L CNN "Vendor URL"
 F9 "0.1uF" 10 -80 50 H V L CNN "Capacitance"
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -528,17 +529,17 @@ ENDDEF
 # Particle_ARGN-H
 #
 DEF Particle_ARGN-H A 0 40 N Y 1 F N
-F0 "A" 0 1000 50 H V C CNN
-F1 "Particle_ARGN-H" 0 -900 50 H V C CNN
-F2 "Flying_Camp_Design:Particle_ARGN-H" 0 -1000 50 H I C CNN
-F3 "" 0 -1100 50 H I C CNN
-F4 "Particle Industries, Inc." 0 -1200 50 H I C CNN "Manufacturer"
-F5 "ARGN-H" 0 -1300 50 H I C CNN "Manufacturer Part Number"
-F6 "Digi-Key" 0 -1400 50 H I C CNN "Vendor"
-F7 "1878-1022-ND" 0 -1500 50 H I C CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z3848m" 0 -1600 50 H I C CNN "Vendor URL"
+F0 "A" 0 1200 50 H V C CNN
+F1 "Particle_ARGN-H" 0 -1300 50 H I C CNN
+F2 "Flying_Camp_Design:Particle_ARGN-H" 0 -1400 50 H I C CNN
+F3 "" 0 -1500 50 H I C CNN
+F4 "Particle Industries, Inc." 0 -1100 50 H V C CNN "Manufacturer"
+F5 "ARGN-H" 0 -1200 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1600 50 H I C CNN "Vendor"
+F7 "1878-1022-ND" 0 -1700 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z3848m" 0 -1800 50 H I C CNN "Vendor URL"
 DRAW
-S -400 900 400 -800 0 1 0 f
+S -400 1100 400 -1000 0 1 0 f
 ENDDRAW
 ENDDEF
 #
@@ -546,11 +547,11 @@ ENDDEF
 #
 DEF TE_1-1825027-1 SW 0 40 Y N 1 F N
 F0 "SW" 0 300 50 H V C CNN
-F1 "TE_1-1825027-1" 0 -400 50 H V C CNN
-F2 "Flying_Camp_Design:TE_1-1825027-1" 0 -500 50 H I C CNN
-F3 "" 0 -600 50 H I C CNN
-F4 "TE Connectivity" 0 -700 50 H I C CNN "Manufacturer"
-F5 "1-1825027-1" 0 -800 50 H I C CNN "Manufacturer Part Number"
+F1 "TE_1-1825027-1" 0 -600 50 H I C CNN
+F2 "Flying_Camp_Design:TE_1-1825027-1" 0 -700 50 H I C CNN
+F3 "" 0 -800 50 H I C CNN
+F4 "TE Connectivity" 0 -400 50 H V C CNN "Manufacturer"
+F5 "1-1825027-1" 0 -500 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -900 50 H I C CNN "Vendor"
 F7 "450-1658-ND" 0 -1000 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztmc92" 0 -1100 50 H I C CNN "Vendor URL"
@@ -575,11 +576,11 @@ ENDDEF
 #
 DEF TE_1734328-2 J 0 40 Y Y 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "TE_1734328-2" 0 -800 50 H V C CNN
-F2 "Flying_Camp_Design:TE_1734328-2" 0 -900 50 H I C CNN
-F3 "" 0 -1000 50 H I C CNN
-F4 "TE Connectivity" 0 -1100 50 H I C CNN "Manufacturer"
-F5 "1734328-2" 0 -1200 50 H I C CNN "Manufacturer Part Number"
+F1 "TE_1734328-2" 0 -1000 50 H I C CNN
+F2 "Flying_Camp_Design:TE_1734328-2" 0 -1100 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+F4 "TE Connectivity" 0 -800 50 H V C CNN "Manufacturer"
+F5 "1734328-2" 0 -900 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1300 50 H I C CNN "Vendor"
 F7 "A111052CT-ND" 0 -1400 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/zt8z79" 0 -1500 50 H I C CNN "Vendor URL"
@@ -601,11 +602,11 @@ ENDDEF
 #
 DEF TE_2-1437565-7 SW 0 40 Y N 1 F N
 F0 "SW" 0 300 50 H V C CNN
-F1 "TE_2-1437565-7" 0 -300 50 H V C CNN
-F2 "Flying_Camp_Design:TE_2-1437565-7" 0 -400 50 H I C CNN
-F3 "" 0 -500 50 H I C CNN
-F4 "TE Connectivity" 0 -600 50 H I C CNN "Manufacturer"
-F5 "2-1437565-7" 0 -700 50 H I C CNN "Manufacturer Part Number"
+F1 "TE_2-1437565-7" 0 -500 50 H I C CNN
+F2 "Flying_Camp_Design:TE_2-1437565-7" 0 -600 50 H I C CNN
+F3 "" 0 -700 50 H I C CNN
+F4 "TE Connectivity" 0 -300 50 H V C CNN "Manufacturer"
+F5 "2-1437565-7" 0 -400 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -800 50 H I C CNN "Vendor"
 F7 "450-1130-ND" 0 -900 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/zt8c4h" 0 -1000 50 H I C CNN "Vendor URL"
@@ -642,11 +643,11 @@ ENDDEF
 #
 DEF TE_2129691-1 J 0 40 Y Y 1 F N
 F0 "J" 0 900 50 H V C CNN
-F1 "TE_2129691-1" 0 -1300 50 H V C CNN
-F2 "Flying_Camp_Design:TE_2129691-1" 0 -1400 50 H I C CNN
-F3 "" 0 -1500 50 H I C CNN
-F4 "TE Connectivity" 0 -1600 50 H I C CNN "Manufacturer"
-F5 "2129691-1" 0 -1700 50 H I C CNN "Manufacturer Part Number"
+F1 "TE_2129691-1" 0 -1500 50 H I C CNN
+F2 "Flying_Camp_Design:TE_2129691-1" 0 -1600 50 H I C CNN
+F3 "" 0 -1700 50 H I C CNN
+F4 "TE Connectivity" 0 -1300 50 H V C CNN "Manufacturer"
+F5 "2129691-1" 0 -1400 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1800 50 H I C CNN "Vendor"
 F7 "A122008CT-ND" 0 -1900 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/zt84pm" 0 -2000 50 H I C CNN "Vendor URL"
@@ -689,11 +690,11 @@ ENDDEF
 #
 DEF Winbond_W25Q32JVSSIQ U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
-F1 "Winbond_W25Q32JVSSIQ" 0 -500 50 H V C CNN
-F2 "Flying_Camp_Design:Winbond_W25Q32JVSSIQ" 0 -600 50 H I C CNN
-F3 "" 0 -700 50 H I C CNN
-F4 "Winbond Electronics" 0 -800 50 H I C CNN "Manufacturer"
-F5 "W25Q32JVSSIQ" 0 -900 50 H I C CNN "Manufacturer Part Number"
+F1 "Winbond_W25Q32JVSSIQ" 0 -700 50 H I C CNN
+F2 "Flying_Camp_Design:Winbond_W25Q32JVSSIQ" 0 -800 50 H I C CNN
+F3 "" 0 -900 50 H I C CNN
+F4 "Winbond Electronics" 0 -500 50 H V C CNN "Manufacturer"
+F5 "W25Q32JVSSIQ" 0 -600 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1000 50 H I C CNN "Vendor"
 F7 "W25Q32JVSSIQ-ND" 0 -1100 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztbfp7" 0 -1200 50 H I C CNN "Vendor URL"
@@ -714,11 +715,11 @@ ENDDEF
 #
 DEF Winbond_W25Q32JVZPIQ U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
-F1 "Winbond_W25Q32JVZPIQ" 0 -500 50 H V C CNN
-F2 "Flying_Camp_Design:Winbond_W25Q32JVZPIQ" 0 -600 50 H I C CNN
-F3 "" 0 -700 50 H I C CNN
-F4 "Winbond Electronics" 0 -800 50 H I C CNN "Manufacturer"
-F5 "W25Q32JVZPIQ" 0 -900 50 H I C CNN "Manufacturer Part Number"
+F1 "Winbond_W25Q32JVZPIQ" 0 -700 50 H I C CNN
+F2 "Flying_Camp_Design:Winbond_W25Q32JVZPIQ" 0 -800 50 H I C CNN
+F3 "" 0 -900 50 H I C CNN
+F4 "Winbond Electronics" 0 -500 50 H V C CNN "Manufacturer"
+F5 "W25Q32JVZPIQ" 0 -600 50 H V C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 0 -1000 50 H I C CNN "Vendor"
 F7 "W25Q32JVZPIQ-ND" 0 -1100 50 H I C CNN "Vendor Part Number"
 F8 "https://www.digikey.com/short/ztb520" 0 -1200 50 H I C CNN "Vendor URL"
@@ -739,16 +740,16 @@ ENDDEF
 # Yageo_RC0402JR-070RL
 #
 DEF Yageo_RC0402JR-070RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0402JR-070RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0402_1005Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0402JR-070RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-0.0JRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/ztmz93" 100 -800 50 H I L CNN "Vendor URL"
-F9 "0R" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0402JR-070RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0402_1005Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0402JR-070RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-0.0JRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/ztmz93" 100 -900 50 H I L CNN "Vendor URL"
+F9 "0R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -760,16 +761,16 @@ ENDDEF
 # Yageo_RC0603JR-070RL
 #
 DEF Yageo_RC0603JR-070RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-070RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-070RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-0.0GRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z3b8n5" 100 -800 50 H I L CNN "Vendor URL"
-F9 "0R" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-070RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-070RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-0.0GRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z3b8n5" 100 -900 50 H I L CNN "Vendor URL"
+F9 "0R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -781,16 +782,16 @@ ENDDEF
 # Yageo_RC0603JR-07100KL
 #
 DEF Yageo_RC0603JR-07100KL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-07100KL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-07100KL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-100KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z35538" 100 -800 50 H I L CNN "Vendor URL"
-F9 "100k" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-07100KL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-07100KL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-100KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z35538" 100 -900 50 H I L CNN "Vendor URL"
+F9 "100k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -802,16 +803,16 @@ ENDDEF
 # Yageo_RC0603JR-07100RL
 #
 DEF Yageo_RC0603JR-07100RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-07100RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-07100RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-100GRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z35529" 100 -800 50 H I L CNN "Vendor URL"
-F9 "100R" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-07100RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-07100RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-100GRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z35529" 100 -900 50 H I L CNN "Vendor URL"
+F9 "100R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -823,16 +824,16 @@ ENDDEF
 # Yageo_RC0603JR-0710KL
 #
 DEF Yageo_RC0603JR-0710KL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-0710KL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-0710KL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-10KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355tq" 100 -800 50 H I L CNN "Vendor URL"
-F9 "10k" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-0710KL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-0710KL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-10KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355tq" 100 -900 50 H I L CNN "Vendor URL"
+F9 "10k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -844,16 +845,16 @@ ENDDEF
 # Yageo_RC0603JR-071KL
 #
 DEF Yageo_RC0603JR-071KL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-071KL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-071KL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-1.0KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355tv" 100 -800 50 H I L CNN "Vendor URL"
-F9 "1k" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-071KL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-071KL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-1.0KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355tv" 100 -900 50 H I L CNN "Vendor URL"
+F9 "1k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -865,16 +866,16 @@ ENDDEF
 # Yageo_RC0603JR-072K2L
 #
 DEF Yageo_RC0603JR-072K2L R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-072K2L" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-072K2L" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-2.2KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z35539" 100 -800 50 H I L CNN "Vendor URL"
-F9 "2.2k" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-072K2L" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-072K2L" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-2.2KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z35539" 100 -900 50 H I L CNN "Vendor URL"
+F9 "2.2k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -886,16 +887,16 @@ ENDDEF
 # Yageo_RC0603JR-07330RL
 #
 DEF Yageo_RC0603JR-07330RL R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-07330RL" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-07330RL" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-330GRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z355qt" 100 -800 50 H I L CNN "Vendor URL"
-F9 "330R" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-07330RL" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-07330RL" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-330GRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z355qt" 100 -900 50 H I L CNN "Vendor URL"
+F9 "330R" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -907,16 +908,16 @@ ENDDEF
 # Yageo_RC0603JR-074K7L
 #
 DEF Yageo_RC0603JR-074K7L R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Yageo_RC0603JR-074K7L" 30 -40 50 H I L CNN
-F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -200 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "Yageo" 100 -400 50 H I L CNN "Manufacturer"
-F5 "RC0603JR-074K7L" 100 -500 50 H I L CNN "Manufacturer Part Number"
-F6 "Digi-Key" 100 -600 50 H I L CNN "Vendor"
-F7 "311-4.7KGRCT-ND" 100 -700 50 H I L CNN "Vendor Part Number"
-F8 "https://www.digikey.com/short/z3bjcp" 100 -800 50 H I L CNN "Vendor URL"
-F9 "4.7k" 30 -40 50 H V L CNN "Resistance"
+F0 "R" 50 25 50 H V L CNN
+F1 "Yageo_RC0603JR-074K7L" 100 -200 50 H I L CNN
+F2 "Flying_Camp_Design:R_0603_1608Metric" 100 -300 50 H I L CNN
+F3 "" 100 -400 50 H I L CNN
+F4 "Yageo" 100 -500 50 H I L CNN "Manufacturer"
+F5 "RC0603JR-074K7L" 100 -600 50 H I L CNN "Manufacturer Part Number"
+F6 "Digi-Key" 100 -700 50 H I L CNN "Vendor"
+F7 "311-4.7KGRCT-ND" 100 -800 50 H I L CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z3bjcp" 100 -900 50 H I L CNN "Vendor URL"
+F9 "4.7k" 50 -50 50 H V L CNN "Resistance"
 DRAW
 P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
@@ -928,10 +929,10 @@ ENDDEF
 # mikroBUS-Logo_11.9x4.1mm_SilkScreen
 #
 DEF mikroBUS-Logo_11.9x4.1mm_SilkScreen LOGO 0 40 Y Y 1 F N
-F0 "LOGO" 0 -50 60 H I C CNN
-F1 "mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 50 60 H I C CNN
-F2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -200 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F0 "LOGO" 0 200 50 H I C CNN
+F1 "mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -200 50 H I C CNN
+F2 "Flying_Camp_Design:mikroBUS-Logo_11.9x4.1mm_SilkScreen" 0 -300 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
 DRAW
 P 5 0 0 1 97 61 84 61 84 18 97 18 97 61 F
 P 5 0 0 1 97 80 84 80 84 70 97 70 97 80 F
@@ -950,9 +951,9 @@ ENDDEF
 #
 DEF mikroBUS_socket_header_left_pth J 0 40 N Y 1 F N
 F0 "J" 0 700 50 H V C CNN
-F1 "mikroBUS_socket_header_left_pth" 0 -700 50 H V C CNN
-F2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" 0 -800 50 H I C CNN
-F3 "" -400 -100 50 H I C CNN
+F1 "mikroBUS_socket_header_left_pth" 0 -900 50 H I C CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" 0 -1000 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
 DRAW
 S -400 600 400 -600 0 1 0 f
 X +3.3V +3.3V -500 -400 100 R 50 50 0 0 W
@@ -970,9 +971,9 @@ ENDDEF
 #
 DEF mikroBUS_socket_header_right_pth J 0 40 N Y 1 F N
 F0 "J" 0 700 50 H V C CNN
-F1 "mikroBUS_socket_header_right_pth" 0 -700 50 H V C CNN
-F2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" 0 -800 50 H I C CNN
-F3 "" 600 -100 50 H I C CNN
+F1 "mikroBUS_socket_header_right_pth" 0 -900 50 H I C CNN
+F2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" 0 -1000 50 H I C CNN
+F3 "" 0 -1100 50 H I C CNN
 DRAW
 S 400 -600 -400 600 0 1 0 f
 X +5V +5V 500 -400 100 L 50 50 0 0 W
