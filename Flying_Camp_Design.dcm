@@ -215,4 +215,12 @@ D Right (8pos) PTH header for mikroBUS plug-in module socket
 F https://www.mikroe.com/mikrobus
 $ENDCMP
 #
+$CMP orangecrab_r0.2
+F https://github.com/gregdavill/OrangeCrab
+$ENDCMP
+#
+$CMP clicky_v1
+F https://github.com/FlyingCampDesign/clicky
+$ENDCMP
+#
 #End Doc Library
