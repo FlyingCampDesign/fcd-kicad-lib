@@ -200,6 +200,10 @@ D 4.7 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP clicky_v1
+F https://github.com/FlyingCampDesign/clicky
+$ENDCMP
+#
 $CMP mikroBUS-Logo_11.9x4.1mm_SilkScreen
 D mikroBUS logo 11.9x4.1mm silkscreen
 F https://www.mikroe.com/mikrobus
@@ -217,10 +221,6 @@ $ENDCMP
 #
 $CMP orangecrab_r0.2
 F https://github.com/gregdavill/OrangeCrab
-$ENDCMP
-#
-$CMP clicky_v1
-F https://github.com/FlyingCampDesign/clicky
 $ENDCMP
 #
 #End Doc Library
