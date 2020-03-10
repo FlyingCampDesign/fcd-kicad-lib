@@ -32,12 +32,12 @@ $ENDCMP
 #
 $CMP Adafruit_Feather_socket_header_left_pth
 D Left (16pos) PTH header for Adafruit Feather plug-in module socket
-F https://learn.adafruit.com/adafruit-feather/feather-specification
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP Adafruit_Feather_socket_header_right_pth
 D Right (12pos) PTH header for Adafruit Feather plug-in module socket
-F https://learn.adafruit.com/adafruit-feather/feather-specification
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP Adafruit_Feather_socket_mounting_holes
@@ -211,12 +211,12 @@ $ENDCMP
 #
 $CMP mikroBUS_socket_header_left_pth
 D Left (8pos) PTH header for mikroBUS plug-in module socket
-F https://www.mikroe.com/mikrobus
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP mikroBUS_socket_header_right_pth
 D Right (8pos) PTH header for mikroBUS plug-in module socket
-F https://www.mikroe.com/mikrobus
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534237&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP orangecrab_r0.2

@@ -120,6 +120,11 @@ F0 "J" 0 1200 50 H V C CNN
 F1 "Adafruit_Feather_socket_header_left_pth" 0 -1300 50 H I C CNN
 F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_left_pth" 0 -1400 50 H I C CNN
 F3 "" 0 -1500 50 H I C CNN
+F4 "TE Connectivity" 0 -1100 50 H V C CNN "Manufacturer"
+F5 "6-534237-4" 0 -1200 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1600 50 H I C CNN "Vendor"
+F7 "A32549-ND" 0 -1700 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z8mb48" 0 -1800 50 H I C CNN "Vendor URL"
 DRAW
 S -400 1100 400 -1000 0 1 0 f
 X 3V3 3V3 -500 500 100 R 50 50 0 0 w
@@ -148,6 +153,11 @@ F0 "J" 0 1200 50 H V L CNN
 F1 "Adafruit_Feather_socket_header_right_pth" 0 -1300 50 H I C CNN
 F2 "Flying_Camp_Design:Adafruit_Feather_socket_header_right_pth" 0 -1400 50 H I C CNN
 F3 "" 0 -1500 50 H I C CNN
+F4 "TE Connectivity" 0 -1100 50 H V C CNN "Manufacturer"
+F5 "6-534237-0" 0 -1200 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1600 50 H I C CNN "Vendor"
+F7 "A32911-ND" 0 -1700 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z8mbmc" 0 -1800 50 H I C CNN "Vendor URL"
 DRAW
 S 400 1100 -400 -1000 0 1 0 f
 X D2 D2 500 -700 100 L 50 50 0 0 P
@@ -967,6 +977,11 @@ F0 "J" 0 700 50 H V C CNN
 F1 "mikroBUS_socket_header_left_pth" 0 -900 50 H I C CNN
 F2 "Flying_Camp_Design:mikroBUS_socket_header_left_pth" 0 -1000 50 H I C CNN
 F3 "" 0 -1100 50 H I C CNN
+F4 "TE Connectivity" 0 -700 50 H V C CNN "Manufacturer"
+F5 "5-534237-6" 0 -800 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1200 50 H I C CNN "Vendor"
+F7 "A32909-ND" 0 -1300 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z8mbmb" 0 -1400 50 H I C CNN "Vendor URL"
 DRAW
 S -400 600 400 -600 0 1 0 f
 X +3.3V +3.3V -500 -400 100 R 50 50 0 0 W
@@ -987,6 +1002,11 @@ F0 "J" 0 700 50 H V C CNN
 F1 "mikroBUS_socket_header_right_pth" 0 -900 50 H I C CNN
 F2 "Flying_Camp_Design:mikroBUS_socket_header_right_pth" 0 -1000 50 H I C CNN
 F3 "" 0 -1100 50 H I C CNN
+F4 "TE Connectivity" 0 -700 50 H V C CNN "Manufacturer"
+F5 "5-534237-6" 0 -800 50 H V C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 0 -1200 50 H I C CNN "Vendor"
+F7 "A32909-ND" 0 -1300 50 H I C CNN "Vendor Part Number"
+F8 "https://www.digikey.com/short/z8mbmb" 0 -1400 50 H I C CNN "Vendor URL"
 DRAW
 S 400 -600 -400 600 0 1 0 f
 X +5V +5V 500 -400 100 L 50 50 0 0 W
