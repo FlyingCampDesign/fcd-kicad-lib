@@ -85,9 +85,9 @@ D Connector Header Surface Mount, Right Angle 2 position 0.079" (2.00mm)
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
-$CMP Lite-On_LTST-C191KGKT
-D Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)
-F http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF
+$CMP Lite-On_LTST-C193KGKT-5A
+D Green 572nm LED Indication - Discrete 2V 0603 (1608 Metric)
+F http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF
 $ENDCMP
 #
 $CMP MCU_VBAT
