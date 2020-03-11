@@ -60,6 +60,11 @@ D Fiducial Marker (1mm, 2mm Mask)
 F ~
 $ENDCMP
 #
+$CMP Flying_Camp_Design_logo_30x30mm_silkscreen
+D Flying Camp Design logo 30x30mm silkscreen
+F ~
+$ENDCMP
+#
 $CMP GCT_USB4085-GF-A
 D USB - C (Type - C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Through Hole, Right Angle
 F https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf
