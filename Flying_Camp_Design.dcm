@@ -135,6 +135,12 @@ D 0.1µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
 $ENDCMP
 #
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
+$ENDCMP
+#
 $CMP Particle_ARGN-H
 D Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Chip + U.FL Through Hole
 F https://docs.particle.io/assets/pdfs/datasheets/argon-datasheet.pdf
