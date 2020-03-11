@@ -60,8 +60,18 @@ D Fiducial Marker (1mm, 2mm Mask)
 F ~
 $ENDCMP
 #
-$CMP Flying_Camp_Design_logo_30x30mm_silkscreen
-D Flying Camp Design logo 30x30mm silkscreen
+$CMP Flying_Camp_Design_logo
+D Flying Camp Design logo
+F ~
+$ENDCMP
+#
+$CMP Flying_Camp_Design_logo_14.7x23mm_silkscreen
+D Flying Camp Design logo 14.7x23mm silkscreen
+F ~
+$ENDCMP
+#
+$CMP Flying_Camp_Design_logo_7.35x11mm_silkscreen
+D Flying Camp Design logo 7.35x11mm silkscreen
 F ~
 $ENDCMP
 #

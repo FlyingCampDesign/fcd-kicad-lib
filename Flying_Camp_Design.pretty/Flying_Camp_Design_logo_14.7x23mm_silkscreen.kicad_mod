@@ -1,10 +1,10 @@
-(module Flying_Camp_Design_logo_30x30mm_silkscreen (layer F.Cu) (tedit 5E686577)
-  (descr "Flying Camp Design logo 30x30mm silkscreen")
+(module Flying_Camp_Design_logo_14.7x23mm_silkscreen (layer F.Cu) (tedit 5E68F6AF)
+  (descr "Flying Camp Design logo 14.7x23mm silkscreen")
   (attr virtual)
   (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (fp_text value Flying_Camp_Design_logo_30x30mm_silkscreen (at 0.75 0) (layer F.SilkS) hide
+  (fp_text value Flying_Camp_Design_logo_14.7x23mm_silkscreen (at 0.75 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_poly (pts (xy 0.046101 6.425381) (xy 0.136956 6.636487) (xy 0.270383 6.960759) (xy 0.437583 7.375638)
