@@ -31,7 +31,7 @@
   (line (name segm9:Line) (start 90 8.5) (end 90 5.5))
   (line (name segm10:Line) (start 26 8.5) (end 26 2))
   (rect (name rect3:Rect) (start 134.0022 34.00719999999998) (end 110 2))
-  (bitmap (name bm1:Bitmap) (pos 122.0022 18.00719999999998) (scale 1)
+  (bitmap (name bm1:Bitmap) (pos 122.002 18.007) (scale 1)
   (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 68 00 00 01 68 08 06 00 00 00 7A E5 61 ")
     (data "D5 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 2E 18 00 00 2E ")
