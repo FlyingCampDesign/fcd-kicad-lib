@@ -16,10 +16,10 @@ Open the "Configure Paths" preference window and add the following alias to the 
 
 ```
 └── your-kicad-project
-    ├── your-kicad-project-cache.lib
     ├── your-kicad-project.kicad_pcb
-    ├── your-kicad-project.pro
-    ├── your-kicad-project.sch
+    ├── your-kicad-project.kicad_pro
+    ├── your-kicad-project.kicad_prl
+    ├── your-kicad-project.kicad_sch
     ├── fp-lib-table
     ├── lib
     │   └── github.com
