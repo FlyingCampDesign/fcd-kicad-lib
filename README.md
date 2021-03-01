@@ -8,9 +8,9 @@ Unfortunately, KiCad 5 doesn't allow PCB footprint definitions to specify relati
 
 Open the "Configure Paths" preference window and add the following alias to the "3D Search Paths" section:
 
-| Alias                | Path                                                         |
-| -------------------- | ------------------------------------------------------------ |
-| `Flying_Camp_Design` | `${KIPRJMOD}/lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.3dshapes` |
+| Alias                | Path                                                         | Description                      |
+| -------------------- | ------------------------------------------------------------ | -------------------------------- |
+| `Flying_Camp_Design` | `${KIPRJMOD}/lib/github.com/FlyingCampDesign/fcd-kicad-lib/Flying_Camp_Design.3dshapes` | Flying Camp Design KiCad Library |
 
 **IMPORTANT:** To ensure that the global alias above works across multiple projects and users, it is required that this library is located at `<your-kicad-project>/lib/github.com/FlyingCampDesign/fcd-kicad-lib`.
 
